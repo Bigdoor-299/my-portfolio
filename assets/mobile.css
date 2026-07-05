@@ -1,0 +1,72 @@
+/* ===== Mobile Responsive ===== */
+@media (max-width: 768px) {
+  .container { padding: 0 24px !important; }
+  .section-title { font-size: clamp(2.2rem, 10vw, 3rem) !important; margin-bottom: 14px !important; }
+  .section-label { font-size: 0.6rem !important; margin-bottom: 10px !important; }
+  section[id], div[id] { scroll-margin-top: 70px !important; }
+  .navbar-inner { padding: 0 20px !important; }
+  .nav-links { gap: 24px !important; }
+  .nav-link { font-size: 0.75rem !important; }
+
+  /* Hero */
+  .hero-card { max-width: 85vw !important; border-width: 12px !important; }
+  .hero-card-eyes { height: 280px !important; }
+  .hero-card-title { font-size: 36px !important; }
+  .hero-card-sub { font-size: 16px !important; }
+  .hero-card-footer { font-size: 12px !important; margin-top: 20px !important; }
+  .hero-cta { padding: 12px 32px !important; font-size: 0.78rem !important; }
+
+  /* About */
+  .about { padding: 60px 0 !important; }
+  .about-header { flex-direction: column !important; text-align: center !important; }
+  .about-body { grid-template-columns: 1fr !important; gap: 40px !important; }
+  .about-meta { justify-content: center !important; }
+  .about-name { font-size: 1.6rem !important; }
+
+  /* Projects */
+  .projects { padding: 80px 0 60px !important; }
+  .projects-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 16px !important; }
+  .projects-grid--4 { grid-template-columns: repeat(2, 1fr) !important; gap: 24px 16px !important; }
+  .project-card-video { aspect-ratio: 9/16 !important; border-radius: 8px !important; }
+  .projects-hint { font-size: 0.75rem !important; margin: 20px 0 !important; }
+
+  /* GIF */
+  .gif-row { gap: 40px !important; flex-wrap: wrap !important; }
+  .gif-item { height: 120px !important; }
+
+  /* Showreel */
+  .showreel-wrap { border-radius: 8px !important; }
+  .showreel-video { border-radius: 8px !important; }
+  .showreel-play-icon svg { width: 60px !important; height: 60px !important; }
+
+  /* KV */
+  .kv-grid { gap: 24px 16px !important; max-width: 100% !important; }
+  .kv-card--vertical { aspect-ratio: 2/3 !important; }
+  .kv-card--wide { aspect-ratio: 16/9 !important; }
+
+  /* Contact */
+  .contact { padding-top: 80px !important; padding-bottom: 40px !important; }
+  .contact-main-title { font-size: clamp(2.5rem, 12vw, 4rem) !important; }
+  .contact-subtitle { font-size: 1rem !important; margin-bottom: 36px !important; }
+  .contact-email-link { font-size: 1.2rem !important; padding-bottom: 28px !important; margin-bottom: 28px !important; }
+  .contact-social { gap: 20px !important; }
+  .contact-social-link { width: 40px !important; height: 40px !important; }
+  .contact-content { padding: 0 24px !important; }
+  .lightbox-overlay { padding: 24px !important; }
+  .lightbox-image { max-width: 95vw !important; max-height: 80vh !important; }
+}
+
+@media (max-width: 480px) {
+  .hero-card { max-width: 92vw !important; border-width: 8px !important; }
+  .hero-card-eyes { height: 220px !important; }
+  .hero-card-title { font-size: 28px !important; }
+  .hero-card-sub { font-size: 14px !important; }
+  .hero-card-body { padding: 12px !important; }
+  .nav-links { gap: 16px !important; }
+  .about-section-title { font-size: 0.85rem !important; }
+  .projects-grid { gap: 10px !important; }
+  .projects-grid--4 { gap: 16px 10px !important; }
+  .kv-grid { gap: 16px 10px !important; }
+  .contact-main-title { font-size: clamp(2rem, 11vw, 3rem) !important; }
+  .footer { font-size: 0.6rem !important; bottom: 20px !important; }
+}
